@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/main.css">
+    <title>Fake Name Generator</title>
+</head>
+<body>
+{%  for name in names %}
+
+<div class="name">
+    <p>
+    <input  type="text" id="name" name="name" value="{{ name.full_name }}">
+
+    <input type="text" id="username" name="username" value="{{ name.username }}">
+    </p>
+</div>
+<p>
+{% endfor %}
+<a href="/"><button>More</button></a>
+
+</p>
+</body>
+</html>

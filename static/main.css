@@ -1,0 +1,18 @@
+body {
+    font-family: monospace;
+    background: #000000;
+    color: #00ff00;
+    text-align: center;
+    font-size: 16pt;
+
+}
+
+input {
+    font-family: monospace;
+    background: #000000;
+    color: #ccc;
+    font-size: 16pt;
+    width: 50%;
+    text-align: center;
+    border: 1px solid #0f0;
+}
